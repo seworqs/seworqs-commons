@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-03-26 23:31+0100\n"
-"PO-Revision-Date: 2025-03-26 23:31+0100\n"
+"POT-Creation-Date: 2025-03-27 11:52+0100\n"
+"PO-Revision-Date: 2025-03-27 11:52+0100\n"
 "Last-Translator: Sven Franke <sven.franke@seworqs.eu>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -200,52 +200,62 @@ msgctxt "Enum.String.Chars"
 msgid "Alphanumeric"
 msgstr "Alphanumeriek"
 
-#: Enum/Versioning/EnumBumpPreRelease.php:21
+#: Enum/Versioning/EnumBumpPreRelease.php:22
+msgctxt "Enum.Versioning.PreRelease"
+msgid "Dev"
+msgstr "Dev"
+
+#: Enum/Versioning/EnumBumpPreRelease.php:23
 msgctxt "Enum.Versioning.PreRelease"
 msgid "Alpha"
 msgstr "Alpha"
 
-#: Enum/Versioning/EnumBumpPreRelease.php:22
+#: Enum/Versioning/EnumBumpPreRelease.php:24
 msgctxt "Enum.Versioning.PreRelease"
 msgid "Beta"
 msgstr "Beta"
 
-#: Enum/Versioning/EnumBumpPreRelease.php:23
+#: Enum/Versioning/EnumBumpPreRelease.php:25
 msgctxt "Enum.Versioning.PreRelease"
 msgid "RC"
 msgstr "RC"
 
-#: Enum/Versioning/EnumBumpType.php:25
+#: Enum/Versioning/EnumBumpType.php:26
 msgctxt "Enum.Versioning.Release"
 msgid "Major"
 msgstr "Major"
 
-#: Enum/Versioning/EnumBumpType.php:26
+#: Enum/Versioning/EnumBumpType.php:27
 msgctxt "Enum.Versioning.Release"
 msgid "Minor"
 msgstr "Minor"
 
-#: Enum/Versioning/EnumBumpType.php:27
+#: Enum/Versioning/EnumBumpType.php:28
 msgctxt "Enum.Versioning.Release"
 msgid "Patch"
 msgstr "Patch"
 
-#: Enum/Versioning/EnumBumpType.php:28
+#: Enum/Versioning/EnumBumpType.php:29
+msgctxt "Enum.Versioning.Release"
+msgid "Dev"
+msgstr "Dev"
+
+#: Enum/Versioning/EnumBumpType.php:30
 msgctxt "Enum.Versioning.Release"
 msgid "Alpha"
 msgstr "Alpha"
 
-#: Enum/Versioning/EnumBumpType.php:29
+#: Enum/Versioning/EnumBumpType.php:31
 msgctxt "Enum.Versioning.Release"
 msgid "Beta"
 msgstr "Beta"
 
-#: Enum/Versioning/EnumBumpType.php:30
+#: Enum/Versioning/EnumBumpType.php:32
 msgctxt "Enum.Versioning.Release"
 msgid "RC"
 msgstr "RC"
 
-#: Enum/Versioning/EnumBumpType.php:31
+#: Enum/Versioning/EnumBumpType.php:33
 msgctxt "Enum.Versioning.Release"
 msgid "Stable"
 msgstr "Stable"

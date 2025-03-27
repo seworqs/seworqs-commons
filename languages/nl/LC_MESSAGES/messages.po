@@ -1,0 +1,366 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2025-03-26 23:31+0100\n"
+"PO-Revision-Date: 2025-03-26 23:31+0100\n"
+"Last-Translator: Sven Franke <sven.franke@seworqs.eu>\n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ../../../src\n"
+"X-Poedit-KeywordsList: t;t2:1,2;tc:1c,2;cfgt\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#. TRANSLATORS: Some hint here.
+#: Enum/Common/EnumGender.php:24
+msgctxt "Enum.Gender"
+msgid "Female"
+msgstr "Vrouwelijk"
+
+#: Enum/Common/EnumGender.php:25
+msgctxt "Enum.Gender"
+msgid "Male"
+msgstr "Mannelijk"
+
+#: Enum/Common/EnumGender.php:26
+msgctxt "Enum.Gender"
+msgid "Non Binary"
+msgstr "Non-Binair"
+
+#: Enum/Common/EnumGender.php:27
+msgctxt "Enum.Gender"
+msgid "Unknown"
+msgstr "Onbekend"
+
+#: Enum/FormatType/EnumBooleanFormatType.php:26
+msgctxt "Enum.FormatType.Boolean"
+msgid "Active/Inactive"
+msgstr "Actief/Inactief"
+
+#: Enum/FormatType/EnumBooleanFormatType.php:27
+msgctxt "Enum.FormatType.Boolean"
+msgid "Binary"
+msgstr "Non-Binair"
+
+#: Enum/FormatType/EnumBooleanFormatType.php:28
+msgctxt "Enum.FormatType.Boolean"
+msgid "On/Off"
+msgstr "Aan/Uit"
+
+#: Enum/FormatType/EnumBooleanFormatType.php:29
+msgctxt "Enum.FormatType.Boolean"
+msgid "Right/Wrong"
+msgstr "Goed/Fout"
+
+#: Enum/FormatType/EnumBooleanFormatType.php:30
+msgctxt "Enum.FormatType.Boolean"
+msgid "Equal/Not Equal"
+msgstr "Gelijk/Ongelijk"
+
+#: Enum/FormatType/EnumBooleanFormatType.php:31
+msgctxt "Enum.FormatType.Boolean"
+msgid "True/False"
+msgstr "Waar/Niet waar"
+
+#: Enum/FormatType/EnumBooleanFormatType.php:32
+msgctxt "Enum.FormatType.Boolean"
+msgid "Yes/No"
+msgstr "Ja/Nee"
+
+#: Enum/FormatType/EnumDateTimeFormatType.php:26
+msgctxt "Enum.FormatType.DateTime"
+msgid "DateTime"
+msgstr "DatumTijd"
+
+#: Enum/FormatType/EnumDateTimeFormatType.php:27
+msgctxt "Enum.FormatType.DateTime"
+msgid "Atom"
+msgstr "Atom"
+
+#: Enum/FormatType/EnumDateTimeFormatType.php:28
+msgctxt "Enum.FormatType.DateTime"
+msgid "Cookie"
+msgstr "Cookie"
+
+#: Enum/FormatType/EnumDateTimeFormatType.php:29
+msgctxt "Enum.FormatType.DateTime"
+msgid "ISO-8601"
+msgstr "ISO-8601"
+
+#: Enum/FormatType/EnumDateTimeFormatType.php:30
+msgctxt "Enum.FormatType.DateTime"
+msgid "Timestamp"
+msgstr "Timestamp"
+
+#: Enum/FormatType/EnumDateTimeFormatType.php:31
+msgctxt "Enum.FormatType.DateTime"
+msgid "Timestamp (ms)"
+msgstr "Timestamp (ms)"
+
+#: Enum/FormatType/EnumDateTimeFormatType.php:32
+msgctxt "Enum.FormatType.DateTime"
+msgid "Custom"
+msgstr "Aangepast"
+
+#: Enum/FormatType/EnumGenderFormatType.php:23
+msgctxt "Enum.FormatType.Gender"
+msgid "Key"
+msgstr "Sleutel"
+
+#: Enum/FormatType/EnumGenderFormatType.php:24
+msgctxt "Enum.FormatType.Gender"
+msgid "Abbreviation"
+msgstr "Afkorting"
+
+#: Enum/FormatType/EnumGenderFormatType.php:25
+msgctxt "Enum.FormatType.Gender"
+msgid "Text"
+msgstr "Tekst"
+
+#: Enum/FormatType/EnumNumericFormatType.php:23
+msgctxt "Enum.FormatType.Numeric"
+msgid "Numeric"
+msgstr "Numeriek"
+
+#: Enum/FormatType/EnumNumericFormatType.php:24
+msgctxt "Enum.FormatType.Numeric"
+msgid "Currency"
+msgstr "Valuta"
+
+#: Enum/FormatType/EnumNumericFormatType.php:25
+msgctxt "Enum.FormatType.Numeric"
+msgid "Currency Code"
+msgstr "Valuta Code"
+
+#: Enum/FormatType/EnumNumericFormatType.php:26
+msgctxt "Enum.FormatType.Numeric"
+msgid "Currency Symbol"
+msgstr "Valuta Symbool"
+
+#: Enum/String/EnumCase.php:25
+msgctxt "Enum.String.Case"
+msgid "UPPERCASE"
+msgstr "UPPERCASE"
+
+#: Enum/String/EnumCase.php:26
+msgctxt "Enum.String.Case"
+msgid "lowercase"
+msgstr "lowercase"
+
+#: Enum/String/EnumCase.php:27
+msgctxt "Enum.String.Case"
+msgid "PascalCase"
+msgstr "PascalCase"
+
+#: Enum/String/EnumCase.php:28
+msgctxt "Enum.String.Case"
+msgid "camelCase"
+msgstr "camelCase"
+
+#: Enum/String/EnumCase.php:29
+msgctxt "Enum.String.Case"
+msgid "snake_case"
+msgstr "snake_case"
+
+#: Enum/String/EnumCase.php:30
+msgctxt "Enum.String.Case"
+msgid "SNAKE_CASE_SCREAMING"
+msgstr "SNAKE_CASE_SCREAMING"
+
+#: Enum/String/EnumCase.php:31
+msgctxt "Enum.String.Case"
+msgid "kebab-case"
+msgstr "kebab-case"
+
+#: Enum/String/EnumChars.php:23
+msgctxt "Enum.String.Chars"
+msgid "Alpha"
+msgstr "Alpha"
+
+#: Enum/String/EnumChars.php:24
+msgctxt "Enum.String.Chars"
+msgid "Numeric"
+msgstr "Numeriek"
+
+#: Enum/String/EnumChars.php:25
+msgctxt "Enum.String.Chars"
+msgid "Special"
+msgstr "Speciaal"
+
+#: Enum/String/EnumChars.php:26
+msgctxt "Enum.String.Chars"
+msgid "Alphanumeric and Special"
+msgstr "Alphanumeriek en Speciaal"
+
+#: Enum/String/EnumChars.php:27
+msgctxt "Enum.String.Chars"
+msgid "Alphanumeric"
+msgstr "Alphanumeriek"
+
+#: Enum/Versioning/EnumBumpPreRelease.php:21
+msgctxt "Enum.Versioning.PreRelease"
+msgid "Alpha"
+msgstr "Alpha"
+
+#: Enum/Versioning/EnumBumpPreRelease.php:22
+msgctxt "Enum.Versioning.PreRelease"
+msgid "Beta"
+msgstr "Beta"
+
+#: Enum/Versioning/EnumBumpPreRelease.php:23
+msgctxt "Enum.Versioning.PreRelease"
+msgid "RC"
+msgstr "RC"
+
+#: Enum/Versioning/EnumBumpType.php:25
+msgctxt "Enum.Versioning.Release"
+msgid "Major"
+msgstr "Major"
+
+#: Enum/Versioning/EnumBumpType.php:26
+msgctxt "Enum.Versioning.Release"
+msgid "Minor"
+msgstr "Minor"
+
+#: Enum/Versioning/EnumBumpType.php:27
+msgctxt "Enum.Versioning.Release"
+msgid "Patch"
+msgstr "Patch"
+
+#: Enum/Versioning/EnumBumpType.php:28
+msgctxt "Enum.Versioning.Release"
+msgid "Alpha"
+msgstr "Alpha"
+
+#: Enum/Versioning/EnumBumpType.php:29
+msgctxt "Enum.Versioning.Release"
+msgid "Beta"
+msgstr "Beta"
+
+#: Enum/Versioning/EnumBumpType.php:30
+msgctxt "Enum.Versioning.Release"
+msgid "RC"
+msgstr "RC"
+
+#: Enum/Versioning/EnumBumpType.php:31
+msgctxt "Enum.Versioning.Release"
+msgid "Stable"
+msgstr "Stable"
+
+#: Helper/DataHelper.php:24
+msgctxt "Formatting"
+msgid "boolean.active"
+msgstr "Actief"
+
+#: Helper/DataHelper.php:24
+msgctxt "Formatting"
+msgid "boolean.inactive"
+msgstr "Inactief"
+
+#: Helper/DataHelper.php:25
+msgctxt "Formatting"
+msgid "boolean.0"
+msgstr "0"
+
+#: Helper/DataHelper.php:25
+msgctxt "Formatting"
+msgid "boolean.1"
+msgstr "1"
+
+#: Helper/DataHelper.php:26
+msgctxt "Formatting"
+msgid "boolean.on"
+msgstr "Aan"
+
+#: Helper/DataHelper.php:26
+msgctxt "Formatting"
+msgid "boolean.off"
+msgstr "Uit"
+
+#: Helper/DataHelper.php:27
+msgctxt "Formatting"
+msgid "boolean.right"
+msgstr "Goed"
+
+#: Helper/DataHelper.php:27
+msgctxt "Formatting"
+msgid "boolean.wrong"
+msgstr "Fout"
+
+#: Helper/DataHelper.php:28
+msgctxt "Formatting"
+msgid "boolean.equal"
+msgstr "Gelijk"
+
+#: Helper/DataHelper.php:28
+msgctxt "Formatting"
+msgid "boolean.not_equal"
+msgstr "Ongelijk"
+
+#: Helper/DataHelper.php:29
+msgctxt "Formatting"
+msgid "boolean.true"
+msgstr "Waar"
+
+#: Helper/DataHelper.php:29
+msgctxt "Formatting"
+msgid "boolean.false"
+msgstr "Onwaar"
+
+#: Helper/DataHelper.php:30
+msgctxt "Formatting"
+msgid "boolean.yes"
+msgstr "Ja"
+
+#: Helper/DataHelper.php:30
+msgctxt "Formatting"
+msgid "boolean.no"
+msgstr "Nee"
+
+#: Helper/DataHelper.php:80
+msgctxt "Formatting.Gender.Key"
+msgid "f"
+msgstr "v"
+
+#: Helper/DataHelper.php:81
+msgctxt "Formatting.Gender.Abbreviation"
+msgid "F"
+msgstr "V"
+
+#: Helper/DataHelper.php:82
+msgctxt "Formatting.Gender.Text"
+msgid "Female"
+msgstr "Vrouwelijk"
+
+#: Helper/DataHelper.php:86
+msgctxt "Formatting.Gender.Key"
+msgid "m"
+msgstr "m"
+
+#: Helper/DataHelper.php:87
+msgctxt "Formatting.Gender.Abbreviation"
+msgid "M"
+msgstr "M"
+
+#: Helper/DataHelper.php:88
+msgctxt "Formatting.Gender.Text"
+msgid "Male"
+msgstr "Mannelijk"
+
+#: Helper/DataHelper.php:93
+msgctxt "Formatting.Gender.Key"
+msgid "x"
+msgstr "x"
+
+#: Helper/DataHelper.php:94
+msgctxt "Formatting.Gender.Abbreviation"
+msgid "X"
+msgstr "X"
+
+#: Helper/DataHelper.php:95
+msgctxt "Formatting.Gender.Text"
+msgid "Non Binary"
+msgstr "Non-Binair"

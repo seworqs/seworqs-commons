@@ -40,5 +40,11 @@ class VersioningHelperTest extends TestCase
 
         $version = VersioningHelper::bumpSemanticVersion($version, EnumBumpType::STABLE);
         $this->assertEquals('1.0.0', $version);
+
+        // For Composer... no . in prereleases. Set sequenceSplitter to ''.
+        $version = VersioningHelper::bumpSemanticVersion($version, EnumBumpType::MAJOR, EnumBumpPreRelease::DEV, '');
+        $this->assertEquals('2.0.0-dev1', $version);
+
+
     }
 }

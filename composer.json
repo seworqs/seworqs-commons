@@ -1,7 +1,7 @@
 {
     "name": "seworqs/seworqs-commons",
     "description": "Shared utilities, value objects, and helpers.",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "type": "library",
     "license": "proprietary",
     "autoload": {

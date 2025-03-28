@@ -8,7 +8,7 @@ use Seworqs\Commons\Enum\Versioning\EnumBumpType;
 class VersioningHelper
 {
 
-    public static function bumpSemanticVersion(string $currentVersion, EnumBumpType $type, ?EnumBumpPreRelease $preRelease = null): string
+    public static function bumpSemanticVersion(string $currentVersion, EnumBumpType $type, ?EnumBumpPreRelease $preRelease = null, ?string $sequenceSplitter = '.'): string
     {
 
         $availableTypes = [
@@ -41,7 +41,9 @@ class VersioningHelper
             }
 
             // Get pre release info.
-            [$preType, $preSeq] = explode('.', $pre);
+            preg_match('/^([a-zA-Z]+)[\.]?(\d+)$/', $pre, $matches);
+            $preType = $matches[1];
+            $preSeq = (int)$matches[2];
 
             // Check whether the requested type is ok.
             if ($availableTypes[$type->value] < $availableTypes[$preType]) {
@@ -54,16 +56,16 @@ class VersioningHelper
                 $major++;
                 $minor = 0;
                 $patch = 0;
-                $pre = $preRelease ? $preRelease->value . '.1' : '';
+                $pre = $preRelease ? $preRelease->value . $sequenceSplitter . '1' : '';
                 break;
             case EnumBumpType::MINOR:
                 $minor++;
                 $patch = 0;
-                $pre = $preRelease ? $preRelease->value . '.1' : '';
+                $pre = $preRelease ? $preRelease->value . $sequenceSplitter . '1' : '';
                 break;
             case EnumBumpType::PATCH:
                 $patch++;
-                $pre = $preRelease ? $preRelease->value . '.1' : '';
+                $pre = $preRelease ? $preRelease->value . $sequenceSplitter . '1' : '';
                 break;
             case EnumBumpType::DEV:
             case EnumBumpType::ALPHA:
@@ -71,9 +73,9 @@ class VersioningHelper
             case EnumBumpType::RC:
                 if ($pre && strpos($pre, $type->value) === 0) {
                     $number = intval(substr($pre, strlen($type->value) + 1)) + 1;
-                    $pre = $type->value . '.' . $number;
+                    $pre = $type->value . $sequenceSplitter . $number;
                 } else {
-                    $pre = $type->value . '.1';
+                    $pre = $type->value . $sequenceSplitter . '1';
                 }
                 break;
             case EnumBumpType::STABLE:

@@ -87,4 +87,21 @@ Also we have a simple "random" string creator where you can use your own chars t
 
 When working with semantic version numbers, we can bump them to new versions.
 
-### bumpSemanticVersion(string \$currentVersion, EnumBumpType \$type, ?EnumBumpPreRelease \$preRelease = null): string
+### bumpSemanticVersion(string \$currentVersion, EnumBumpType \$type, ?EnumBumpPreRelease \$preRelease = null, ?string \$sequenceSplitter = '.'): string
+
+When you want to use Composers versioning, we need to eliminate the 'dot' in the pre release like ```alpha.1```. Composer only accepts ```alpha1```.
+
+```php
+// Current version.
+$version = '1.8.5';
+
+// Result is '2.0.0-alpha.1' 
+$newVersion = bumpSemanticVersion($version, \Seworqs\Commons\Enum\Versioning\EnumBumpType::MAJOR, \Seworqs\Commons\Enum\Versioning\EnumBumpPreRelease::ALPHA, '.');
+
+// Result is also '2.0.0-alpha.1', because '.' is the default splitter. 
+$newVersion = bumpSemanticVersion($version, \Seworqs\Commons\Enum\Versioning\EnumBumpType::MAJOR, \Seworqs\Commons\Enum\Versioning\EnumBumpPreRelease::ALPHA);
+
+// Result is '2.0.0-alpha1'
+$newVersion = bumpSemanticVersion($version, \Seworqs\Commons\Enum\Versioning\EnumBumpType::MAJOR, \Seworqs\Commons\Enum\Versioning\EnumBumpPreRelease::ALPHA, '');
+
+```
